@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+## Description: Run npm commands for the bloom theme.
+## Usage: npm
+## Example: "ddev npm run build" or "ddev npm run watch"
+
+npm -C ./themes/custom/ecma/ "$@"
+

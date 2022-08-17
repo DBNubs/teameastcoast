@@ -1,0 +1,35 @@
+{
+  "name": "ecma",
+  "version": "1.0.0",
+  "repository": "git+https://github.com/DBNubs/teameastcoast.git",
+  "license": "GPLv2",
+  "engines": {
+    "node": ">=14.x.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "breakpoint-sass": "^2.7.1",
+    "cssnano": "^4.1.7",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-pxtorem": "^4.0.1",
+    "singularitygs": "^1.8.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp",
+    "build:dev": "NODE_ENV=dev gulp",
+    "watch": "NODE_ENV=dev gulp watch",
+    "clean": "rm -rf node_modules && rm -rf css/*",
+    "start": "npm run watch",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "patch-package": "^6.2.1"
+  }
+}

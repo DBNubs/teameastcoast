@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&display=swap');
+//
+// Initialization partial
+//
+// To make it easier to use all variables and mixins in any Sass file in this
+// theme, each .scss file has a @import "init" declaration. And this _init.scss
+// file is in charge of importing all the other partials needed for the theme.
+//
+// This initialization partial is organized in this way:
+// - First we set any shared Sass variables.
+// - Next we import Compass plug-ins (Sass mixin libraries).
+// - Last we define our custom mixins for this theme.
+//
+
+
+// =============================================================================
+// Variables
+// =============================================================================
+
+// Support the same browsers as normalize.css v3.
+$support-for: (
+  ie:      9,
+  '*':     -4,
+);
+
+// Compass' vertical_rhythm extension is a powerful tool to set up a vertical
+// rhythm for your entire page. You can see some of its mixins and functions in
+// use in the normalize.scss file.
+// @see http://compass-style.org/reference/compass/typography/vertical_rhythm/
+
+$base-font-size: 17px; // The font size set on the root html element.
+$base-line-height: 25px; // This line-height determines the basic unit of vertical rhythm.
+
+// Modular Scale
+// Major Third: 16px @ 1:1.25
+$xxl-heading: 2.5 * $base-font-size;
+$xl-heading: 2 * $base-font-size;
+$lg-heading: 1.85 * $base-font-size;
+$md-heading: 1.4 * $base-font-size;
+$sm-heading: 1.2 * $base-font-size;
+$xs-heading: 1 * $base-font-size;
+$text: 1 * $base-font-size;
+$sm-text: .9 * $base-font-size;
+$label: .8 * $base-font-size;
+$xs-text: .7 * $base-font-size;
+$crumb: .6 * $base-font-size;
+
+$h1-font-size: $md-heading;
+$h2-font-size: $md-heading;
+$h3-font-size: $xs-heading;
+$h4-font-size: $xs-heading;
+$h5-font-size: $text;
+$h6-font-size: $label;
+
+// The following font family declarations are based on the Microsoft core web
+// fonts which are common fonts available on most computer systems. The DejaVu
+// and Nimbus Sans fonts are commonly available on Linux systems where the MS
+// fonts are less common. Tahoma and Helvetica are also widely available.
+//
+// A user's web browser will look at the comma-separated list and will
+// attempt to use each font in turn until it finds one that is available
+// on the user's computer. The final "generic" font (sans-serif, serif or
+// monospace) hints at what type of font to use if the web browser doesn't
+// find any of the fonts in the list.
+
+// First, let's create some font stacks.
+
+
+// Now create some variables for the font stacks we want to use on this site.
+$base-font-family: 'Open Sans', sans-serif; // The font family set on the html element.
+$heading-font-family: 'Oswald', sans-serif;
+
+// Sass color variables, etc.
+$black: #494949;
+$red: #FA2A20;
+$blue: #2EA3F2;
+$white: #ffffff;
+
+
+///////////////////////////////////////////////////////////
+
+// Breakpoint Variables
+$bp0: 400px;
+$bp1: 600px;
+$bp1-bp2: 600px 950px;
+$below-bp2: max-width 949px;
+$bp2: 950px;
+$bp3: 1100px;
+$bp4: 1400px;
+$below-bp4: max-width 1400px;
+

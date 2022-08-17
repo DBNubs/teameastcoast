@@ -1,15 +1,14 @@
-name: Team East Coast
+name: ECMA
 type: theme
-base theme: stable9
-description: "Custom theme for Team East Coas Martial Arts"
-package: Custom
+description: 'A custom theme for Team East Coast'
 core_version_requirement: ^8 || ^9
-
+package: custom
 libraries:
   - ecma/global-styling
-
+base theme: stable9
 regions:
+  super_header: 'Super Header'
   header: 'Header'
-  content: Content # the content region is required
+  content: 'Content'
   footer: 'Footer'
   sub_footer: 'Sub Footer'

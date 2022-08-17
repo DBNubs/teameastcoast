@@ -1,0 +1,32 @@
+#block-ecma-main-menu {
+  width: 100%;
+
+  ul.nav {
+    display: flex;
+    justify-content: end;
+
+    li {
+      list-style: none;
+      font-size: 1rem;
+
+      a {
+        text-decoration: none;
+        color: $black;
+
+        &:hover {
+          color: $red;
+        }
+      }
+
+      &::after {
+        content: "|";
+        display: inline-block;
+        margin-right: 5px;
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+    }
+  }
+}

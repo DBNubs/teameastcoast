@@ -1,0 +1,16 @@
+header {
+  max-width: 100%;
+  margin: 0 0;
+  border-bottom: 2px solid #eee;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    #block-ecma-site-branding {
+      justify-content: start;
+    }
+  }
+}
