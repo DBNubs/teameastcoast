@@ -1,0 +1,22 @@
+uuid: 7ee59384-3473-42c8-9d8b-2f2e42ffac7d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ecma
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: ecma_secondary_local_tasks
+theme: ecma
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,45 @@
+uuid: 6e5b4208-ef59-420b-bf5e-a1c0f0ab1f3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.instructor.body
+    - field.field.node.instructor.field_get_started_block
+    - field.field.node.instructor.field_image_media
+    - field.field.node.instructor.field_position
+    - field.field.node.instructor.field_rank
+    - image.style.instructor_teaser
+    - node.type.instructor
+  module:
+    - media
+    - user
+id: node.instructor.teaser
+targetEntityType: node
+bundle: instructor
+mode: teaser
+content:
+  field_image_media:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: instructor_teaser
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_rank:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_get_started_block: true
+  field_position: true
+  links: true

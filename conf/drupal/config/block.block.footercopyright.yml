@@ -1,0 +1,25 @@
+uuid: f58538e5-af68-446b-bba0-974acf2d28ba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b5866f40-85c1-4eaf-a3db-d9754f3962fa'
+  module:
+    - block_content
+  theme:
+    - ecma
+id: footercopyright
+theme: ecma
+region: sub_footer
+weight: 0
+provider: null
+plugin: 'block_content:b5866f40-85c1-4eaf-a3db-d9754f3962fa'
+settings:
+  id: 'block_content:b5866f40-85c1-4eaf-a3db-d9754f3962fa'
+  label: 'Footer Copyright'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

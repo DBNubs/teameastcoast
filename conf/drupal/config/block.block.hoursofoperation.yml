@@ -1,0 +1,25 @@
+uuid: 74ecf31e-753f-4748-8d17-a148e65412c9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8d9e4473-8e17-420b-bf96-1d65f7c970c1'
+  module:
+    - block_content
+  theme:
+    - ecma
+id: hoursofoperation
+theme: ecma
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:8d9e4473-8e17-420b-bf96-1d65f7c970c1'
+settings:
+  id: 'block_content:8d9e4473-8e17-420b-bf96-1d65f7c970c1'
+  label: 'Hours of Operation:'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

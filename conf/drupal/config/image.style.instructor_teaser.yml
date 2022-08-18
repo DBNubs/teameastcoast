@@ -1,0 +1,15 @@
+uuid: ece6b478-d977-42fe-9f6c-d01912739a2d
+langcode: en
+status: true
+dependencies: {  }
+name: instructor_teaser
+label: 'Instructor Teaser'
+effects:
+  2f840ee9-2670-4646-b0d4-475fdebfd14b:
+    uuid: 2f840ee9-2670-4646-b0d4-475fdebfd14b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

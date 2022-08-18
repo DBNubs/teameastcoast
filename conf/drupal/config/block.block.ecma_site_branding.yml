@@ -1,0 +1,25 @@
+uuid: d6bd39ed-f8d0-4d9e-a083-ec4bc9736080
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ecma
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: ecma_site_branding
+theme: ecma
+region: header
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

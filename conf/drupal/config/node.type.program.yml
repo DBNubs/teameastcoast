@@ -1,0 +1,18 @@
+uuid: 7c257085-8bab-44bc-8e24-70c52d00563e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Program
+type: program
+description: 'Used to add a new Program to the website.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

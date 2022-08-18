@@ -1,0 +1,22 @@
+uuid: 1f954ef4-e181-4241-b2ae-28283c55afba
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.instructor
+id: node.instructor.promote
+field_name: promote
+entity_type: node
+bundle: instructor
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

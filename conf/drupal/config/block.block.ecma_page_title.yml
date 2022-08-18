@@ -1,0 +1,26 @@
+uuid: 63bb268a-15bc-4846-b696-327def64bce3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ecma
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: ecma_page_title
+theme: ecma
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

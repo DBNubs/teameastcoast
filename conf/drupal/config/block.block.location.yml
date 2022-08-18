@@ -1,0 +1,25 @@
+uuid: 9b7e06c3-2246-4cfb-b553-fc00d8c54d86
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6912aa27-1ec2-490e-a9a8-965aec1b9cf8'
+  module:
+    - block_content
+  theme:
+    - ecma
+id: location
+theme: ecma
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:6912aa27-1ec2-490e-a9a8-965aec1b9cf8'
+settings:
+  id: 'block_content:6912aa27-1ec2-490e-a9a8-965aec1b9cf8'
+  label: 'Location:'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

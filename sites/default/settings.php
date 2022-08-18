@@ -262,7 +262,7 @@ $databases = [];
  * its location.
  */
 # $settings['config_sync_directory'] = '/directory/outside/webroot';
-$settings['config_sync_directory'] = './files/config/sync';
+$settings['config_sync_directory'] = 'conf/drupal/config';
 
 /**
  * Settings:

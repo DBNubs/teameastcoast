@@ -1,0 +1,23 @@
+uuid: ca3f725a-c542-4a75-952f-7e2938d3066a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.instructor
+  module:
+    - text
+id: node.instructor.body
+field_name: body
+entity_type: node
+bundle: instructor
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

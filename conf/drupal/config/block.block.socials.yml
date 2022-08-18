@@ -1,0 +1,25 @@
+uuid: bfe41819-a3e6-428a-8d05-a9a36d822da4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66b00ba4-29a4-4214-97eb-31305baea3cf'
+  module:
+    - block_content
+  theme:
+    - ecma
+id: socials
+theme: ecma
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:66b00ba4-29a4-4214-97eb-31305baea3cf'
+settings:
+  id: 'block_content:66b00ba4-29a4-4214-97eb-31305baea3cf'
+  label: 'Socials:'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: 88914d81-73a7-4ca1-96d3-4420090475c3
+langcode: en
+status: true
+dependencies: {  }
+id: video_hero
+label: 'Video Hero'
+classes: video-hero
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions:
+  - layout_twocol_section
+weight: 0

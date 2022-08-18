@@ -1,0 +1,33 @@
+uuid: ae5812b3-4f99-4fc4-badc-629bb156d228
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.node.field_get_started_block
+    - node.type.program
+  content:
+    - 'block_content:basic:2dc09ceb-fdfa-41c6-a864-0fe9c668423d'
+id: node.program.field_get_started_block
+field_name: field_get_started_block
+entity_type: node
+bundle: program
+label: 'Get Started Block'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 2dc09ceb-fdfa-41c6-a864-0fe9c668423d
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      basic: basic
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

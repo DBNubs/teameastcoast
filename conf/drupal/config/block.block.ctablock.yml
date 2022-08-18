@@ -1,0 +1,25 @@
+uuid: da43d967-1c4a-4e68-99c5-92679f704a80
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e4d48474-41cc-4e86-b9e5-3b7ff154fe4f'
+  module:
+    - block_content
+  theme:
+    - ecma
+id: ctablock
+theme: ecma
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:e4d48474-41cc-4e86-b9e5-3b7ff154fe4f'
+settings:
+  id: 'block_content:e4d48474-41cc-4e86-b9e5-3b7ff154fe4f'
+  label: 'CTA Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

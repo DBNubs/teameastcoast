@@ -1,0 +1,13 @@
+uuid: ae970919-e59f-4b7c-80d9-9bd7a92649d8
+langcode: en
+status: true
+dependencies: {  }
+id: programs_block
+label: 'Programs Block'
+classes: programs-block
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions:
+  - layout_onecol
+weight: 0

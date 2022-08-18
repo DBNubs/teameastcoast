@@ -1,0 +1,13 @@
+uuid: 283c8e15-ad48-4358-b0b1-60f0f7325cef
+langcode: en
+status: true
+dependencies: {  }
+id: price_boxes
+label: 'Price boxes'
+classes: price-boxes
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions:
+  - layout_twocol_section
+weight: 0

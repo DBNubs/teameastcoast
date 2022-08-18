@@ -1,0 +1,17 @@
+uuid: f1160c00-33e8-4e87-8820-f030e8ceeb08
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Instructor
+type: instructor
+description: 'Content of this type will create a new Instructor Bio page. (This can also be used for gym staff)'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

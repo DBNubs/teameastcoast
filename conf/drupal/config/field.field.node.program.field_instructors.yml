@@ -1,0 +1,29 @@
+uuid: d2d33040-89b7-4242-8aec-619606b743c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instructors
+    - node.type.instructor
+    - node.type.program
+id: node.program.field_instructors
+field_name: field_instructors
+entity_type: node
+bundle: program
+label: Instructors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      instructor: instructor
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
