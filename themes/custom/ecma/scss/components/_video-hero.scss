@@ -31,7 +31,7 @@
     }
   }
 
-  a {
+  .field--name-body a {
     text-decoration: none;
     background: #2EA3F2;
     color: #ffffff;
@@ -44,5 +44,11 @@
     &:hover {
       background: $red;
     }
+  }
+}
+
+#layout-builder {
+  .layout-builder__section .layout {
+    flex-wrap: nowrap;
   }
 }
