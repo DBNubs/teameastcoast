@@ -1,0 +1,41 @@
+.page-node-type-instructor {
+  main {
+    .field--name-field-position,
+    .field--name-field-rank {
+      display: flex;
+      font-style: italic;
+
+      .field__label {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+    }
+
+    .field--name-body {
+      padding-right: 40px;
+      max-width: 65%;
+      margin-right: auto;
+    }
+
+    .field--name-field-image-media {
+      float: right;
+    }
+
+    .field--name-field-get-started-block {
+      a {
+        text-decoration: none;
+        background: $blue;
+        color: $white;
+        padding: 0.625rem 1.5625rem;
+        border-radius: 0.3125rem;
+        margin-top: 25px;
+        display: inline-block;
+
+        &:hover {
+          background: $red;
+        }
+      }
+    }
+  }
+
+}

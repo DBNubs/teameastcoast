@@ -1,0 +1,87 @@
+.page-node-type-program {
+  main {
+    .field--name-field-instructors {
+      background: #eee;
+      padding: 25px;
+      width: 60%;
+
+      .field__items {
+        display: flex;
+        flex-wrap: wrap;
+
+        .instructor {
+          display: inline-block;
+          text-align: center;
+          margin-right: 45px;
+
+          a {
+            color: $black;
+            cursor: pointer;
+            text-decoration: none;
+
+            &:hover {
+              color: $blue;
+            }
+          }
+
+          .name {
+            margin-top: 5px;
+            font-weight: bold;
+          }
+
+          .rank {
+            font-style: italic;
+          }
+        }
+      }
+
+      .field--name-field-image-media {
+        float: none;
+
+        img {
+          border-radius: 150px;
+        }
+      }
+
+      .field__label {
+        font-family: $heading-font-family;
+        font-size: 25.5px;
+        margin-bottom: 25px;
+      }
+
+      article {
+        .field--name-field-rank {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .field--name-body {
+      padding-right: 40px;
+      max-width: 65%;
+      margin-right: auto;
+    }
+
+    .field--name-field-image-media {
+      float: right;
+    }
+
+    .field--name-field-get-started-block {
+      a {
+        text-decoration: none;
+        background: $blue;
+        color: $white;
+        padding: 0.625rem 1.5625rem;
+        border-radius: 0.3125rem;
+        margin-top: 25px;
+        display: inline-block;
+
+        &:hover {
+          background: $red;
+        }
+      }
+    }
+  }
+
+}

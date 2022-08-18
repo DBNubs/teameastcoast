@@ -1,17 +1,28 @@
-#block-ecma-main-menu {
+#block-mainnavigation {
   width: 100%;
 
-  ul.nav {
+  ul#superfish-main {
     display: flex;
     justify-content: end;
 
     li {
       list-style: none;
       font-size: 1rem;
+      position: relative;
+      display: inherit;
+      align-items: center;
 
       a {
         text-decoration: none;
         color: $black;
+
+        .sf-sub-indicator {
+          display: none;
+        }
+
+        &.sf-with-ul {
+          padding-right: 1.5rem;
+        }
 
         &:hover {
           color: $red;
@@ -26,6 +37,16 @@
 
       &:last-child::after {
         content: '';
+      }
+
+      ul {
+        background: $white;
+
+        li {
+          &:after {
+            content: '';
+          }
+        }
       }
     }
   }

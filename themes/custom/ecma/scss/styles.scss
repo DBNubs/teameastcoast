@@ -5,8 +5,15 @@
 /* Component (SMACSS module) rules */
 @import 'components/header';
 @import 'components/nav';
+@import 'components/footer';
+@import 'components/sub-footer';
 @import 'components/admin-tools';
 @import 'components/cta-block';
 
 @import 'components/video-hero';
 @import 'components/price-boxes';
+@import 'components/get-started';
+@import 'components/programs-block';
+
+@import 'components/program';
+@import 'components/instructor';

@@ -1,0 +1,17 @@
+#block-getstarted {
+  .field--name-body {
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      text-decoration: none;
+      background: $blue;
+      color: $white;
+      padding: 0.625rem 1.5625rem;
+      border-radius: 0.3125rem;
+
+      &:hover {
+        background: $red;
+      }
+    }
+  }
+}

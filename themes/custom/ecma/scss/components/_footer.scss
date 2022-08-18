@@ -1,0 +1,33 @@
+footer {
+  background: $black;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    h2 {
+      color: $red;
+      margin-top: 0;
+    }
+
+    p {
+      color: $white;
+    }
+
+    #block-hoursofoperation,
+    #block-location,
+    #block-phonenumber,
+    #block-socials {
+      width: 25%;
+    }
+
+    #block-socials {
+      a {
+        margin-right: 10px;
+      }
+    }
+  }
+}

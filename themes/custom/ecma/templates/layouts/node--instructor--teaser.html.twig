@@ -1,0 +1,17 @@
+<div class="instructor">
+  <a href="{{ path('entity.node.canonical', {'node': node.id}) }}">
+    <div class="image">
+      {{ content.field_image_media }}
+    </div>
+
+    <div class="details">
+      <div class="name">
+        {{ label }}
+      </div>
+
+      <div class="rank">
+        {{ content.field_rank }}
+      </div>
+    </div>
+  </a>
+</div>

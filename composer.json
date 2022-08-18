@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/layout_builder_styles": "^1.0@beta",
+        "drupal/superfish": "^1.4",
         "drupal/twig_tweak": "^3.1",
         "drush/drush": "^11.1"
     },
