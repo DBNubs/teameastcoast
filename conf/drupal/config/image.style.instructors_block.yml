@@ -1,0 +1,15 @@
+uuid: 3edc2d36-2117-45b0-9136-69d16b6de696
+langcode: en
+status: true
+dependencies: {  }
+name: instructors_block
+label: 'Instructors Block'
+effects:
+  0f555352-cf6f-4c2a-b229-6976155eecdf:
+    uuid: 0f555352-cf6f-4c2a-b229-6976155eecdf
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 360
+      anchor: center-center

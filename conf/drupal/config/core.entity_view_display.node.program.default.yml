@@ -21,7 +21,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_get_started_block:
     type: entity_reference_entity_view
@@ -48,7 +48,7 @@ content:
       view_mode: teaser
       link: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   links:
     settings: {  }

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.instructor.field_image_media
     - field.field.node.instructor.field_position
     - field.field.node.instructor.field_rank
+    - field.field.node.instructor.field_weight
     - node.type.instructor
   module:
     - text
@@ -22,7 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
   field_get_started_block:
     type: entity_reference_entity_view
@@ -31,7 +32,7 @@ content:
       view_mode: default
       link: true
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_image_media:
     type: entity_reference_entity_view
@@ -63,4 +64,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_weight: true

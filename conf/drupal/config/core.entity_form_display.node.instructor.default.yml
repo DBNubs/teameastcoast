@@ -8,11 +8,13 @@ dependencies:
     - field.field.node.instructor.field_image_media
     - field.field.node.instructor.field_position
     - field.field.node.instructor.field_rank
+    - field.field.node.instructor.field_weight
     - node.type.instructor
   module:
     - media_library
     - path
     - text
+    - weight
 id: node.instructor.default
 targetEntityType: node
 bundle: instructor
@@ -66,6 +68,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_weight:
+    type: weight_selector
+    weight: 26
+    region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path

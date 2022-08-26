@@ -3,16 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_event_date
+    - field.field.node.article.field_image_media
     - field.field.node.article.field_tags
-    - image.style.wide
     - node.type.article
   module:
-    - comment
-    - image
+    - datetime
     - text
     - user
 _core:
@@ -27,27 +24,25 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
-  comment:
-    type: comment_default
-    label: above
+  field_event_date:
+    type: datetime_default
+    label: inline
     settings:
-      view_mode: default
-      pager_id: 0
+      timezone_override: ''
+      format_type: medium
     third_party_settings: {  }
-    weight: 110
+    weight: 1
     region: content
-  field_image:
-    type: image
+  field_image_media:
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: wide
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: -1
+    weight: 0
     region: content
   field_tags:
     type: entity_reference_label
@@ -55,11 +50,11 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 3
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 4
     region: content
 hidden: {  }

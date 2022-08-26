@@ -1,0 +1,15 @@
+uuid: c4ea66da-b336-481b-9ebe-afd2977e630c
+langcode: en
+status: true
+dependencies: {  }
+name: colorbox
+label: Colorbox
+effects:
+  725669d6-1abb-43e4-98ec-0a89c727e50b:
+    uuid: 725669d6-1abb-43e4-98ec-0a89c727e50b
+    id: image_scale
+    weight: 1
+    data:
+      width: 1000
+      height: null
+      upscale: false

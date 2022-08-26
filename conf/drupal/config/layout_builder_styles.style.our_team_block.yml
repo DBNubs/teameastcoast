@@ -1,0 +1,12 @@
+uuid: 2d079cee-3869-481a-a20a-a6cb611db788
+langcode: en
+status: true
+dependencies: {  }
+id: our_team_block
+label: 'Our Team Block'
+classes: our-team
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

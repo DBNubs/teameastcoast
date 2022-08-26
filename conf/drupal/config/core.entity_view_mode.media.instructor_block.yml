@@ -1,0 +1,10 @@
+uuid: 5c93e825-7331-4456-81f3-04c5be0f147a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.instructor_block
+label: 'Instructor Block'
+targetEntityType: media
+cache: true

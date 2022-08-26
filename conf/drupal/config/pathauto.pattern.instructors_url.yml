@@ -1,0 +1,22 @@
+uuid: 97720c95-11f7-4170-ba75-d50c486ef0bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: instructors_url
+label: 'Instructors URL'
+type: 'canonical_entities:node'
+pattern: 'instructors/[node:title]'
+selection_criteria:
+  b7bedd7a-dd46-4224-9695-9c54c0a19b11:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b7bedd7a-dd46-4224-9695-9c54c0a19b11
+    context_mapping:
+      node: node
+    bundles:
+      instructor: instructor
+selection_logic: and
+weight: -5
+relationships: {  }

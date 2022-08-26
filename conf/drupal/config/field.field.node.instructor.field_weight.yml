@@ -1,0 +1,24 @@
+uuid: c6635364-7802-46da-bcb2-f19d2a8dd34a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.instructor
+  module:
+    - weight
+id: node.instructor.field_weight
+field_name: field_weight
+entity_type: node
+bundle: instructor
+label: Weight
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight
