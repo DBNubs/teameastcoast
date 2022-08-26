@@ -1,0 +1,46 @@
+.our-team {
+  margin-bottom: 75px;
+
+  h2 {
+    text-align: center;
+    font-size: $xxl-heading;
+    margin-bottom: 0;
+    margin-top: 61px;
+    margin-bottom: 25px;
+  }
+
+  .rows {
+    display: flex;
+    flex-wrap: wrap;
+
+    .views-row {
+      width: 25%;
+      margin-bottom: -5px;
+
+      .team-member {
+        position: relative;
+
+        .info {
+          position: absolute;
+          z-index: 5;
+          background: #DDDDDD;
+          padding: 10px 25px;
+          bottom: 35px;
+
+          .title {
+            font-weight: bold;
+          }
+
+          .position {
+            font-style: italic;
+          }
+        }
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

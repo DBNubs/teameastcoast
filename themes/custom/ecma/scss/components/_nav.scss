@@ -41,11 +41,17 @@
 
       ul {
         background: $white;
+        border-top: 7px solid $red;
 
         li {
           &:after {
             content: '';
           }
+
+          a {
+            padding-bottom: 0;
+          }
+
         }
       }
     }

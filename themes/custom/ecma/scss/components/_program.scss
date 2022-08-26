@@ -3,16 +3,20 @@
     .field--name-field-instructors {
       background: #eee;
       padding: 25px;
-      width: 60%;
+      display: inline-block;
+      margin-top: 25px;
+      max-width: 66%;
 
       .field__items {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         .instructor {
           display: inline-block;
           text-align: center;
           margin-right: 45px;
+          margin-bottom: 45px;
 
           a {
             color: $black;
@@ -47,6 +51,7 @@
         font-family: $heading-font-family;
         font-size: 25.5px;
         margin-bottom: 25px;
+        text-align: center;
       }
 
       article {
@@ -84,4 +89,17 @@
     }
   }
 
+}
+
+.page-node-type-page {
+  .programs-block {
+
+    .rows {
+      width: 100%;
+    }
+
+    header {
+      display: none;
+    }
+  }
 }

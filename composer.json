@@ -17,13 +17,18 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/colorbox": "^1.10",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/layout_builder_styles": "^1.0@beta",
+        "drupal/linkit": "^6.0@beta",
+        "drupal/pathauto": "^1.11",
         "drupal/superfish": "^1.4",
         "drupal/twig_tweak": "^3.1",
+        "drupal/webform": "^6.1",
+        "drupal/weight": "^3.3",
         "drush/drush": "^11.1"
     },
     "conflict": {
