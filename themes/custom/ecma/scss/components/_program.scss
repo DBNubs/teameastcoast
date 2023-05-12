@@ -3,20 +3,35 @@
     .field--name-field-instructors {
       background: #eee;
       padding: 25px;
-      display: inline-block;
+      display: block;
       margin-top: 25px;
-      max-width: 66%;
+      max-width: 100%;
+
+      @media screen and (min-width: #{$bp2}) {
+        display: inline-block;
+        max-width: 66%;
+      }
 
       .field__items {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        text-align: center;
+
+        @media screen and (min-width: #{$bp2}) {
+          flex-direction: row;
+        }
 
         .instructor {
           display: inline-block;
           text-align: center;
-          margin-right: 45px;
+          margin-right: 0px;
           margin-bottom: 45px;
+
+          @media screen and (min-width: #{$bp2}) {
+            margin-right: 45px;
+          }
 
           a {
             color: $black;
@@ -63,13 +78,23 @@
     }
 
     .field--name-body {
-      padding-right: 40px;
-      max-width: 65%;
       margin-right: auto;
+      padding-right: 0px;
+      max-width: 100%;
+
+      @media screen and (min-width: #{$bp2}) {
+        padding-right: 40px;
+        max-width: 65%;
+      }
     }
 
     .field--name-field-image-media {
-      float: right;
+      float: none;
+      text-align: center;
+
+      @media screen and (min-width: #{$bp2}) {
+        float: right;
+      }
     }
 
     .field--name-field-get-started-block {

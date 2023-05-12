@@ -1,54 +1,35 @@
-.video-hero {
-  justify-content: center;
+.path-frontpage {
+  .hero {
+    background: url('../assets/bjjteam.jpeg') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 600px;
 
-  .layout__region--first {
-    background: $black;
-    color: $white;
-    padding: 9.25rem 0;
-    justify-content: center;
-    align-items: center;
+    .layout__region > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+    }
 
-    h1 {
-      font-size: $xxl-heading;
+    .field--name-body {
+      background: rgba(0, 0, 0, .8);
+      max-width: 50%;
+      padding: 25px;
+      color: $white;
       text-align: center;
-      margin-top: 0px;
+
+      a {
+        text-decoration: none;
+        background: $blue;
+        color: $white;
+        padding: 0.625rem 1.5625rem;
+        border-radius: 0.3125rem;
+
+        &:hover {
+          background: $red;
+        }
+      }
     }
-
-    p {
-      max-width: 75%;
-      margin: 0 auto;
-      text-align: center;
-    }
-  }
-
-  .layout__region--second {
-    align-items: center;
-    display: flex;
-
-    iframe {
-      margin-left: -25px;
-      box-shadow: 0 4px 4px -1.6px $black;
-    }
-  }
-
-  .field--name-body a {
-    text-decoration: none;
-    background: #2EA3F2;
-    color: #ffffff;
-    padding: 0.625rem 1.5625rem;
-    border-radius: 0.3125rem;
-    margin-top: 15px;
-    display: inline-block;
-    font-weight: bold;
-
-    &:hover {
-      background: $red;
-    }
-  }
-}
-
-#layout-builder {
-  .layout-builder__section .layout {
-    flex-wrap: nowrap;
   }
 }

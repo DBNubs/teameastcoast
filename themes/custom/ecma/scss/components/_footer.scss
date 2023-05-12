@@ -4,10 +4,16 @@ footer {
 
   > div {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     width: 80vw;
     margin: 0 auto;
     padding: 50px 0;
+
+    @media screen and (min-width: #{$bp1}) {
+      flex-direction: row;
+    }
 
     h2 {
       color: $red;
@@ -22,7 +28,16 @@ footer {
     #block-location,
     #block-phonenumber,
     #block-socials {
-      width: 25%;
+      width: 90%;
+      margin: 0 auto;
+
+      @media screen and (min-width: #{$bp1}) {
+        width: 50%;
+      }
+
+      @media screen and (min-width: #{$bp2}) {
+        width: 25%;
+      }
     }
 
     #block-socials {

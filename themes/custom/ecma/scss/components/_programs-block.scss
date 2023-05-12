@@ -40,8 +40,13 @@
     width: 75%;
     margin: 25px auto;
 
+
     .views-row {
-      width: 50%;
+      width: 100%;
+
+      @media screen and (min-width: #{$bp1}) {
+        width: 50%;
+      }
 
       .views-field-title {
         .field-content {

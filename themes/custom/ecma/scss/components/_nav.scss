@@ -57,3 +57,57 @@
     }
   }
 }
+
+
+ul.sf-menu.sf-accordion .sf-sub-indicator:after {
+  font-size: 12px;
+}
+
+ul.sf-menu.sf-accordion li {
+  background: $blue;
+  border-bottom: 2px solid $white;
+
+  &:hover {
+    background: $blue-darker;
+  }
+}
+
+ul.sf-menu.sf-accordion a {
+  color: $white;
+  text-decoration: none;
+}
+
+ul.sf-menu.sf-accordion ul li:first-child {
+  display: none;
+}
+
+.sf-accordion-toggle {
+  display: block;
+  margin: 15px auto 25px;
+  width: 38px;
+}
+
+#superfish-main-toggle,
+#superfish-main-toggle::before,
+#superfish-main-toggle::after {
+  display: block;
+  background-color: $black;
+  position: absolute;
+  height: 6px;
+  width: 38px;
+  border-radius: 3px;
+}
+
+#superfish-main-toggle::before {
+  content: '';
+  margin-top: -8px;
+}
+
+#superfish-main-toggle::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#superfish-main-toggle span {
+  display: none;
+}

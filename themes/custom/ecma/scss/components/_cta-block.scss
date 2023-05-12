@@ -13,3 +13,11 @@
     }
   }
 }
+
+.layout--twocol-section {
+  flex-direction: column;
+
+  @media screen and (min-width: #{$bp2}) {
+    flex-direction: row;
+  }
+}

@@ -12,10 +12,23 @@
   .rows {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+
+    @media screen and (min-width: #{$bp1}) {
+      flex-direction: row;
+    }
 
     .views-row {
-      width: 25%;
+      width: 100%;
       margin-bottom: -5px;
+
+      @media screen and (min-width: #{$bp1}) {
+        width: 50%;
+      }
+
+      @media screen and (min-width: #{$bp2}) {
+        width: 25%;
+      }
 
       .team-member {
         position: relative;

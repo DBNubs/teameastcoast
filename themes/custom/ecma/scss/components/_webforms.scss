@@ -12,6 +12,7 @@
     padding: 25px;
     background: #eee;
     margin-bottom: 25px;
+    max-width: 90%;
 
     .form-item {
       display: block;
@@ -29,11 +30,19 @@
       textarea {
         padding: 10px;
         font-size: 16px;
-        max-width: 510px;
+        max-width: 318px;
+
+        @media screen and (min-width: #{$bp2}) {
+          max-width: 510px;
+        }
       }
 
       textarea {
-        max-width: 490px;
+        max-width: 314px;
+
+        @media screen and (min-width: #{$bp2}) {
+          max-width: 490px;
+        }
       }
     }
 
