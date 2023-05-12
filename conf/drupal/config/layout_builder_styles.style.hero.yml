@@ -1,0 +1,12 @@
+uuid: 6ead9f44-085c-40b1-ac0a-e94f456dff55
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+classes: hero
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0
