@@ -25,6 +25,7 @@
         "drupal/layout_builder_styles": "^2.0",
         "drupal/linkit": "^6.0.1@beta",
         "drupal/pathauto": "^1.11",
+        "drupal/pdf": "^1.2",
         "drupal/superfish": "^1.6",
         "drupal/twig_tweak": "^3.2.1",
         "drupal/webform": "^6.2@beta",

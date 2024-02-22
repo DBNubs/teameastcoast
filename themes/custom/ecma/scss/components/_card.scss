@@ -1,0 +1,37 @@
+.card {
+  background: $blue-darker;
+  border-top: 7px solid #000;
+  border-bottom: 8px solid #000;
+  margin-top: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .layout__region {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+      color: $white;
+      text-shadow: 1px 1px $black;
+      font-size: 18px;
+      line-height: 33px;
+
+      a {
+        text-shadow: none;
+        text-decoration: none;
+        color: $red;
+        background: $white;
+        padding: 0.625rem 1.5625rem;
+        border-radius: 0.3125rem;
+        margin-top: 10px;
+        display: inline-block;
+
+        &:hover {
+          background: $red;
+          color: $white;
+        }
+      }
+    }
+  }
+}
