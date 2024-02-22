@@ -13,8 +13,27 @@ settings:
     items:
       - heading
       - bold
+      - underline
       - italic
+      - strikethrough
+      - subscript
+      - superscript
+      - bulletedList
+      - numberedList
+      - alignment
+      - insertTable
+      - indent
+      - outdent
+      - horizontalLine
+      - drupalInsertImage
+      - sourceEditing
   plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
     ckeditor5_heading:
       enabled_headings:
         - heading2
@@ -22,4 +41,20 @@ settings:
         - heading4
         - heading5
         - heading6
-image_upload: {  }
+    ckeditor5_imageResize:
+      allow_resize: true
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0

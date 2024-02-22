@@ -1,0 +1,12 @@
+uuid: 60e54f72-e27c-4cdf-ab6a-6acc550995df
+langcode: en
+status: true
+dependencies: {  }
+id: card
+label: Card
+classes: card
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0
