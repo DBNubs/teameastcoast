@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.12",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4.2",
         "drupal/colorbox": "^2.0",
         "drupal/core-composer-scaffold": "^10",
@@ -26,7 +27,7 @@
         "drupal/linkit": "^6.0.1@beta",
         "drupal/pathauto": "^1.11",
         "drupal/pdf": "^1.2",
-        "drupal/superfish": "^1.6",
+        "drupal/superfish": "2.0.x-dev@dev",
         "drupal/twig_tweak": "^3.2.1",
         "drupal/webform": "^6.2@beta",
         "drupal/weight": "^3.4",
@@ -43,7 +44,8 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "drupal/core-vendor-hardening": true
+            "drupal/core-vendor-hardening": true,
+            "cweagans/composer-patches": true
         }
     },
     "extra": {
@@ -80,6 +82,9 @@
             "themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+
         },
         "drupal-core-project-message": {
             "include-keys": [
