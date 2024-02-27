@@ -84,7 +84,9 @@
             ]
         },
         "patches": {
-
+            "drupal/pdf": {
+                "": "https://www.drupal.org/files/issues/2024-01-27/3417349-update-pdf.js-references.patch"
+            }
         },
         "drupal-core-project-message": {
             "include-keys": [
